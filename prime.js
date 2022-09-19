@@ -6,7 +6,7 @@ function checkPrime(num){
 			counter++;
 		}
 	}
-	if(counter == 2){
+	if(counter>=2){
 		return false;
 	}
 	return true;
